@@ -12,7 +12,7 @@ def valid_move?(board, index)
     return false
   end
 
-  return position_taken(board, index)
+  return (position_taken(board, index))
 
 end
 
