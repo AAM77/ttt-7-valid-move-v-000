@@ -13,8 +13,6 @@ def valid_move?(board, index)
     return false
   end
 
-  return (position_taken(board, index))
-
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
